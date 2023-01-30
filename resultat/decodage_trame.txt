@@ -1,0 +1,1948 @@
+
+Trame numero0:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x8363
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489172
+		Acknowledgement number: 0
+		Header Length: 32 bytes
+		Flags: 0x['0', '0', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '0', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0x4a55
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '03WSOPT - Window Scale :08.\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero1:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x0000
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xf095
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624819
+		Acknowledgement number: 15205
+		Header Length: 32 bytes
+		Flags: 0x['0', '1', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0xc22f
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '01No-Operation .\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero2:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8364
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero3:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:408
+		Identification: 0x8365
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4bb9
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Methode: GET 
+		Url: / 
+		Version: 
+Host: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero4:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd1
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0d0
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xfa8d
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero5:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:466
+		Identification: 0x3fd2
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xaf25
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xba49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Version: HTTP/1.1 
+		Code_Status: 200 
+		Message: 
+Date: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero6:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8366
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero7:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd3
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0ce
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625246
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:501
+		Checksum: 0xf8e2
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero8:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8367
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero9:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8368
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero10:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd4
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0cd
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625247
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xf8e1
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero11:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x8363
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489172
+		Acknowledgement number: 0
+		Header Length: 32 bytes
+		Flags: 0x['0', '0', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '0', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0x4a55
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '03WSOPT - Window Scale :08.\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero12:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x0000
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xf095
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624819
+		Acknowledgement number: 15205
+		Header Length: 32 bytes
+		Flags: 0x['0', '1', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0xc22f
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '01No-Operation .\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero13:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8364
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero14:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:408
+		Identification: 0x8365
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4bb9
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Methode: GET 
+		Url: / 
+		Version: 
+Host: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero15:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd1
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0d0
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xfa8d
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero16:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:466
+		Identification: 0x3fd2
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xaf25
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xba49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Version: HTTP/1.1 
+		Code_Status: 200 
+		Message: 
+Date: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero17:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8366
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero18:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd3
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0ce
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625246
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:501
+		Checksum: 0xf8e2
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero19:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8367
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero20:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8368
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero21:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd4
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0cd
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625247
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xf8e1
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero22:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x8363
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489172
+		Acknowledgement number: 0
+		Header Length: 32 bytes
+		Flags: 0x['0', '0', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '0', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0x4a55
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '03WSOPT - Window Scale :08.\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero23:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x0000
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xf095
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624819
+		Acknowledgement number: 15205
+		Header Length: 32 bytes
+		Flags: 0x['0', '1', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0xc22f
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '01No-Operation .\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero24:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8364
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero25:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:408
+		Identification: 0x8365
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4bb9
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Methode: GET 
+		Url: / 
+		Version: 
+Host: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero26:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd1
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0d0
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xfa8d
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero27:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:466
+		Identification: 0x3fd2
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xaf25
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xba49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Version: HTTP/1.1 
+		Code_Status: 200 
+		Message: 
+Date: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero28:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8366
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero29:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd3
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0ce
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625246
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:501
+		Checksum: 0xf8e2
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero30:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8367
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero31:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8368
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero32:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd4
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0cd
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625247
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xf8e1
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero33:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x8363
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489172
+		Acknowledgement number: 0
+		Header Length: 32 bytes
+		Flags: 0x['0', '0', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '0', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0x4a55
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '03WSOPT - Window Scale :08.\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero34:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:52
+		Identification: 0x0000
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xf095
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624819
+		Acknowledgement number: 15205
+		Header Length: 32 bytes
+		Flags: 0x['0', '1', '0', '0', '1', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '1', 'FIN': '0'}
+		Window size value:64240
+		Checksum: 0xc22f
+		Urgent pointer: 0000
+		Options: (12 bytes)
+			Details Options['02Maximum Segment Size :05b4.\n', '01No-Operation .\n', '01No-Operation .\n']
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero35:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8364
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero36:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:408
+		Identification: 0x8365
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489173
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1026
+		Checksum: 0x4bb9
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Methode: GET 
+		Url: / 
+		Version: 
+Host: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero37:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd1
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0d0
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xfa8d
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero38:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:466
+		Identification: 0x3fd2
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xaf25
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226624820
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '1', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '1', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xba49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		Version: HTTP/1.1 
+		Code_Status: 200 
+		Message: 
+Date: 
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero39:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8366
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero40:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd3
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0ce
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625246
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:501
+		Checksum: 0xf8e2
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé
+
+Trame numero41:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8367
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero42:
+	Ethernet II: 
+		Destination: 00:0c:29:65:20:48:
+		Source: 00:0c:29:a6:7d:b4:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x8368
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 128
+		Protocol: TCP(6)
+		Header checksum: 0x0000
+		Source: 192.168.100.101
+		Destination: 192.168.100.120
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 53409
+		Destination Port: 80
+		Sequence number: 996489541
+		Acknowledgement number: 49234
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '1']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '1'}
+		Window size value:1024
+		Checksum: 0x4a49
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		PAS DE HTTP
+		Corps_http: PAS DE CORPS HTTP
+
+Trame numero43:
+	Ethernet II: 
+		Destination: 00:0c:29:a6:7d:b4:
+		Source: 00:0c:29:65:20:48:
+		Type : 0x0800(IPV4)
+
+	Internet Protocol Version 4:
+		Version:4
+		Header Length:20  bytes
+		Type Of Service:0
+		Total Length:40
+		Identification: 0x3fd4
+		Flags: 0x4000
+			Reserved bit: 0
+			Don't Fragment: 1
+			More Fragments: 0
+			Fragment Offset: 0
+		Time to live: 64
+		Protocol: TCP(6)
+		Header checksum: 0xb0cd
+		Source: 192.168.100.120
+		Destination: 192.168.100.101
+		Taille options : 0
+		Detail options : 
+
+	Transmission Control Protocol:
+		Source Port: 80
+		Destination Port: 53409
+		Sequence number: 3226625247
+		Acknowledgement number: 15205
+		Header Length: 20 bytes
+		Flags: 0x['0', '1', '0', '0', '0', '0']
+			Detail_flags :{'URG': '0', 'ACK': '1', 'PSH': '0', 'RST': '0', 'SYN': '0', 'FIN': '0'}
+		Window size value:501
+		Checksum: 0xf8e1
+		Urgent pointer: 0000
+		Options: (0 bytes)
+			Details Options[]
+		Padding : 0
+
+	HTTP :
+		pas de protocol http echangé

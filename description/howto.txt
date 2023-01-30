@@ -1,0 +1,39 @@
+Installation :
+    **Installation requise : 
+        python3
+        pip install tk  : pour pouvoir visualiser l'interface du projet qui a été conçue avec TKinter
+        pip install tabulate : pour installer la package tabulate de python
+
+    ** Si vous utilisez un systéme UNIX le code devrait marcher nativement
+    **Si vous utilisez un systéme Windows vous devez installer make sur votre machine pour pouvoir 
+    executer le makefile
+    
+
+Utilisation :
+    **Pour executer le programme :
+    -Vous devez vous mettre sur le dossier analyseur avec la commande : cd analyseur
+    -executer la commande : make run
+    cette commande va lancer le makefile qui lui meme lancera le programme principale IU.py
+
+A l'execution de la commande ```make run``` vous allez avoir :
+-une interface graphique qui s'affichera ou vous de devez cliquer sur fichier dans la barre menu en haut à droite ensuite sur ouvrir un fichier
+-selectionner un fichier .txt contenant un ensemble de trames
+Le graphflow s'affichera ensuite sur l'interface contenant l'ensemble des trames par ordre chronologique qui
+correspond à leur ordre d’apparition dans le fichier trace.
+Le visiualisateur permet aussi de faire un ensemble de filtre et de génerer deux fichiers
+-un fichier texte contenant le resutlat du visualisateur 
+-un autre fichier texte contenant les differents resultats de decodage
+
+    **Synataxe du filtre est la suivante : 
+        protocol.field==value 
+        protocol.field!=value 
+	  protocol
+        on peut eventuellement executer des filtres de la forme :
+        protocol1.field1==value1 || protocol2.field2==value2 (valable pour cas d'inegalite)
+
+        protocol : {tcp,http,ip}
+        field :{
+            si protocol ==tcp :{port_src ,port_dest ,sequence_number ,acknowlegement_number }
+            si protocol ==ip : { version, protocol, src, dst}
+            si protocol ==http : pas de field
+        }
